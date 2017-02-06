@@ -3,7 +3,7 @@
 [![Dependency Status](https://gemnasium.com/techinasia/laravel-stream.svg)](https://gemnasium.com/techinasia/laravel-stream)
 [![Build Status](https://travis-ci.org/techinasia/laravel-stream.svg)](https://travis-ci.org/techinasia/laravel-stream)
 [![Coverage Status](https://coveralls.io/repos/github/techinasia/laravel-stream/badge.svg)](https://coveralls.io/github/techinasia/laravel-stream)
-[![StyleCI Status](https://styleci.io/repos/31862595/shield)](https://styleci.io/repos/31862595)
+[![StyleCI Status](https://styleci.io/repos/75928243/shield)](https://styleci.io/repos/75928243)
 
 > [Stream.io](https://getstream.io) bridge for [Laravel 5](http://laravel.com/).
 

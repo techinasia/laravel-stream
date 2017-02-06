@@ -66,7 +66,7 @@ class StreamManager
      */
     public function getDefaultApplication()
     {
-        return $this->config->get($this->getConfigName() . '.default');
+        return $this->config->get($this->getConfigName().'.default');
     }
 
     /**
@@ -78,7 +78,7 @@ class StreamManager
      */
     public function setDefaultApplication($name)
     {
-        $this->config->set($this->getConfigName() . '.default', $name);
+        $this->config->set($this->getConfigName().'.default', $name);
     }
 
     /**
@@ -106,7 +106,7 @@ class StreamManager
     {
         $name = $name ?: $this->getDefaultApplication();
 
-        $applications = $this->config->get($this->getConfigName() . '.applications');
+        $applications = $this->config->get($this->getConfigName().'.applications');
 
         if (! is_array($config = array_get($applications, $name)) && ! $config) {
             throw new InvalidArgumentException("Application [$name] is not configured.");
